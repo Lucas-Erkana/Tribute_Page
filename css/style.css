@@ -1,4 +1,25 @@
 body {
-    background-color: red;
+  font-family: sans-serif;
+  background-color: #ffffff;
 }
 
+h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
