@@ -1,18 +1,11 @@
-# Project Name <!---Title of Project-->
 <a name="readme-top"></a>
-
-
-## Project Name <!---Title of Project-->
-
-This project is about a .....................................
-
 
 <div align="center">
 
-  <img src="/images/murple_logo.png" alt="logo" width="140"  height="auto" /> <!---Organization logo-->
+  <img src="https://img.stackshare.io/stack/12741/default_bcc87e47eb053f5947fa6dbe45beba33a3d1dc56.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse</b></h3>
+  <h3><b>freeCodeCamp</b></h3>
 
 </div>
 
@@ -33,37 +26,41 @@ This project is about a .....................................
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Project name<a name="about-project"></a> <!---Project title-->
+# 📖 Tribute Page<a name="about-project"></a>
 <table style="border: 2px solid black;">
   <tr>
-    <th style="border: 1px solid black;">Desktop Version</th>
-    <th>Mobile Version</th>
-     <th style="border: 1px solid black;">Mobile Version Menu</th>
+    <th>Student Info</th>
+    <th>HTML questions</th>
   </tr>
   <tr style="border: 2px solid black;">
-  <td style="border: 1px solid black;"><img src="/images/DesktopVersion.jpg" alt="Desktop Version" width="400"  height="200" /></td>
-  <td><img src="/images/MobileVersion.jpg" alt="Mobile Version" width="150"  height="200" /></td>
-   <td><img src="/images/MobileVersionMenu.jpg" alt="Mobile Version" width="150"  height="200" /></td>
+    <td style="border: 1px solid black;"><img src="/images/Toppart.jpg" alt="Top part of Registration form" width="300"  height="270" /></td>
+    <td><img src="/images/Bottompart.jpg" alt="Bottom part of Registration form" width="300"  height="270" /></td>
+  </tr>
+  <tr>
+    <th>CSS question</th>
+    <th>Footer</th>
+  </tr>
+    <tr style="border: 2px solid black;">
+      <td><img src="/images/topPartFilled.jpg" alt="Filled Registration Form" width="300"  height="270" /></td>
+      <td><img src="/images/bottomPartFilled.jpg" alt="Filled Registration Form" width="300"  height="270" /></td>
   </tr>
 </table>
-**Project name** is a website that will......................................... 
+In this project, **Tribute Page** is a responsive and visually appealing tribute page created using HTML and CSS. It showcases the life and achievements of an influential figure, featuring an image, informative captions, and external links for further exploration. Experience the power of HTML and CSS in creating a meaningful tribute with Tribute Page.
+<br>
+<br>
 
-Here are some features of the page:
-
+**Here are some features of the page:**
 <ul>
-  <li>Feature 1</li>
-  <li>Feature 2</li>
-  <li>Feature 3</li>
-  <li>Feature 4</li>
-</ul>
+<li>View content</li>
 
+
+</ul>
 
 
 
 ## 🛠 Built With <a name="built-with"></a>
     HTML
     CSS
-    Javascript
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -72,7 +69,7 @@ Here are some features of the page:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[html-css_javascipt template](https://lucash2022.github.io/html-css_js_template/)
+[Tribute_Pagey](https://lucash2022.github.io/Tribute_Page/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,9 +82,9 @@ Here are some features of the page:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone [link to repository]
+- On the terminal run this command git clone https://github.com/Lucash2022/Tribute_Pagey.git
 
-- Go to the repository folder using command prompt cd Awesome_Book.
+- Go to the repository folder using command prompt cd Tribute_Pagey.
 
 - Install the dev dependencies for linters run npm install.
 
@@ -101,7 +98,7 @@ In order to run this project you need:
 
 -Internet Explorer
 
--Any broswer
+-Any browser
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,9 +109,9 @@ Clone this repository to your desired folder:
 
 - Open the command prompt in the created directory.
 
-- On the terminal run this command git clone [link to repository].git
+- On the terminal run this command git clone https://github.com/Lucash2022/Tribute_Pagey.git
 
-- Go to the repository folder using command prompt cd [name of repository].
+- Go to the repository folder using command prompt cd RegistrationForm.
 
 - Install the dev dependencies for linters run npm install.
 --->
@@ -125,15 +122,16 @@ Clone this repository to your desired folder:
 <!-- Author -->
 
 ## 👤**Authors** <a name="authors"></a>
-<h4>Author name</h4>
+<h4>Lucas Erkana</h4>
 
-<img src="/images/github.svg" alt="logo" width="18"  height="18" />[githubhandle](https://github.com/Lucash2022)
+<img src="/images/github.svg" alt="logo" width="18"  height="18" />[github handle](https://github.com/Lucash2022)
 <br>
-<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitterhandle](https://twitter.com/@Lucas_David_22)
+<img src="/images/twitter.svg" alt="logo" width="18"  height="18" /> [twitter handle](https://twitter.com/@Lucas_David_22)
 <br>
 <img src="/images/linkedin.svg" alt="logo" width="18"  height="18" />[linkedIn](https://www.linkedin.com/in/lucas-erkana-b30a0b3b/)
   <br>
 <img src="/images/facebook.svg" alt="logo" width="18"  height="18" />[facebook](https://www.facebook.com/lucash.toni)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,6 +140,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- Implement some UX improvements: add a home page, include transitions and/or animation
 
 - Implement additional pages, which will allow the user to Register
 
@@ -155,7 +154,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Lucash2022/Awesome_Book/issues/2).
+Feel free to check the [issues page](https://github.com/Lucash2022/RegistrationForm/issues/2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,15 +170,15 @@ Give a ⭐️ if you like this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+[freeCodeCamp](https://www.freecodecamp.org/)
+
 [Font Awesome](https://fontawesome.com/search?q=book&o=r)
 
 [Icons8](https://icons8.com/icons/set/books)
 
 [Google Fonts](https://developers.google.com/fonts)
 
-
 [Bootsrtap](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-
 
 [Luxon](https://imdac.github.io/modules/js/luxon/)
 
