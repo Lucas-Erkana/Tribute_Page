@@ -1,43 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Font awesome CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <!--Cutom Styling-->
-        <link rel="stylesheet" href="/css/style.css">
-        <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <title>Document Title</title>
-        <link rel="icon" type="image/x-icon" href="/images/microverse_icon.png">
-  </head>
-  <body>
- <h2>JavaScript Validation</h2>
-
-<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-  Name: <input type="text" name="fname">
-  <input type="submit" value="Submit">
-</form>
-    
-    
-    
-    
-    
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-   <!-- Luxion-->
-     <script src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js" crossorigin="anonymous"></script>
-      <script src="/js/index.js" type="module" ></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Norman_Borlaug_1968.jpg/1200px-Norman_Borlaug_1968.jpg" alt="Dr. Norman Borlaug">
+      <figcaption id="img-caption">Dr. Norman Borlaug was an American agricultural scientist who is considered the "Father of the Green Revolution" for his role in developing high-yielding varieties of wheat that helped to increase food production in developing countries.</figcaption>
+    </div>
+    <div id="tribute-info">
+      <p>Dr. Borlaug was born in 1914 in Cresco, Iowa. He studied plant pathology at the University of Minnesota and then went on to work for the Rockefeller Foundation. In the 1940s, he began working on developing high-yielding varieties of wheat that could be grown in developing countries. His work was successful, and by the 1960s, he had helped to increase wheat production in developing countries by over 100%.</p>
+      <p>Dr. Borlaug was awarded the Nobel Peace Prize in 1970 for his work on the Green Revolution. He died in 2009 at the age of 95.</p>
+    </div>
+    <a id="tribute-link" href="https://www.nobelprize.org/prizes/peace/1970/borlaug/biographical/" target="_blank">Learn more about Dr. Norman Borlaug</a>
+  </main>
+</body>
 </html>
